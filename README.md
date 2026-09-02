@@ -2,34 +2,32 @@
 
 ### AI Solutions Engineer
 
-**Building intelligent business systems where operations, data and AI work together.**
+**Building intelligent software ecosystems that connect every area of a business.**
 
-I design and build connected business solutions that combine applied AI, workflow automation, digital products, CRM and ERP integrations, APIs, and operational data.
+I design and build integrated business systems that bring together software, automation, data and artificial intelligence. My focus is creating CRM, ERP and POS platforms that connect commercial operations, production, logistics, finance, reporting and management in one coherent ecosystem.
 
 Based in Bogotá, Colombia.
 
-## About me
+## What I build
 
-I turn complex business processes into clear, connected systems. My work brings together product strategy, UX/UI, software engineering, automation, and practical AI to improve how teams sell, operate, and make decisions.
+- Custom CRM, ERP and POS systems
+- End-to-end automation across business areas
+- AI copilots that can execute actions inside business software
+- AI agents and multi-agent systems (AI crews) for specialized workflows
+- Integrations between applications, APIs, operational tools and data
+- Reporting and decision-support systems powered by connected information
+- Clear, efficient UX/UI for both direct control and AI-assisted operation
 
-## What I focus on
+## Product vision
 
-- AI copilots connected to business workflows
-- Conversational product and customer experiences
-- Lead qualification and commercial automation
-- CRM and ERP integrations
-- Make and n8n workflow automation
-- API, webhook, and serverless integrations
-- Responsive digital products with React and TypeScript
+Business software should give people two equally strong ways to work: an intuitive interface for direct control and an intelligent copilot capable of completing tasks from natural-language instructions.
+
+My goal is to create integrated, intelligent ecosystems that simplify the management of an entire business—not isolated tools. These systems connect people, processes, data and AI across the full operation.
 
 ## How I work
 
-**Discover → Design → Build → Integrate → Validate → Document**
+**Business problem → System architecture → UX/UI → Development → Integration → Automation → AI → Validation**
 
-I start with the business problem, design the system around the real workflow, connect the required tools and data, and validate the result with clear responsibilities, human oversight, and measurable objectives.
+I combine product thinking, software engineering, automation and applied AI to turn complex operations into reliable and usable systems.
 
-## Portfolio
-
-I am preparing a curated collection of case studies and product demos. Each project will have its own repository and README documenting its business problem, architecture, integrations, AI and automation behavior, demo, evidence, limitations, and results.
-
-The source repositories remain private until they are ready for public release.
+AI is also part of my engineering workflow: I use it to accelerate research, design, development, testing and documentation while remaining responsible for architecture, decisions, security and validation.
