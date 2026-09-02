@@ -18,12 +18,6 @@ Based in Bogotá, Colombia.
 - API, webhook, and serverless integrations
 - Clear, responsive digital products with React and TypeScript
 
-## AI-augmented engineering workflow
-
-I use AI as an active engineering partner throughout discovery, system design, prototyping, implementation, testing, documentation, and iteration.
-
-AI accelerates the work, while I remain responsible for product decisions, architecture, validation, security, and business outcomes.
-
 ## How I work
 
 **Discover → Design → Build → Integrate → Validate → Document**
