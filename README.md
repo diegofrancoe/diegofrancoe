@@ -32,9 +32,9 @@ Based in Bogotá, Colombia.
 
 | System | Product focus | Access |
 |---|---|---|
-| **Ceniza digital ecosystem** | Public website, connected intake, private CRM and an operational AI copilot | [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Website code](https://github.com/diegofrancoe/ceniza-digital-platform) · [Live website](https://ceniza-web.vercel.app) |
-| **Naval digital ecosystem** | B2B product discovery, assisted purchasing and a private ERP under active development | [Case study](https://www.diegofrancoe.com/proyectos/naval) · [Website code](https://github.com/diegofrancoe/naval-web-platform) · [Live website](https://productosnaval.vercel.app) |
-| **Cuarentamas commerce experience** | Product storytelling, automated form delivery and connected customer follow-up | [Case study](https://www.diegofrancoe.com/proyectos/40-plus) · [Source](https://github.com/diegofrancoe/cuarentamas-commerce) · [Live website](https://cuarentamas.vercel.app) |
+| **Ceniza digital ecosystem** | Public website, connected intake, private CRM and an operational AI copilot | [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Website code](https://github.com/diegofrancoe/ceniza-digital-platform) · [Live website](https://cenizaproducciones.com/) |
+| **Naval digital ecosystem** | B2B product discovery, assisted purchasing and a private ERP under active development | [Case study](https://www.diegofrancoe.com/proyectos/naval) · [Website code](https://github.com/diegofrancoe/naval-web-platform) · [Live website](https://www.productosnaval.com/) |
+| **Cuarentamas commerce experience** | Product storytelling, automated form delivery and connected customer follow-up | [Case study](https://www.diegofrancoe.com/proyectos/40-plus) · [Source](https://github.com/diegofrancoe/cuarentamas-commerce) · [Live website](https://cuarentamas.com/) |
 | **Diego Franco portfolio** | Bilingual case studies that explain product decisions, system architecture and outcomes | [Source](https://github.com/diegofrancoe/diego-franco-portfolio) · [Live portfolio](https://www.diegofrancoe.com/) |
 
 > **Privacy by design:** production CRM and ERP repositories remain private. Public demos use synthetic data and are separated from real business information.
