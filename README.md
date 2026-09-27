@@ -20,7 +20,7 @@
 
 I design and build full-stack products where **software, business workflows, automation, data and applied AI** work as one system.
 
-My focus is not adding AI as decoration. I build the product around real operational context: clear UX/UI, structured data, secure integrations, AI copilots and human-approved actions.
+My focus is not adding AI as decoration. I build the product around real operational context: clear UX/UI, structured data, secure integrations, AI agents and human-approved actions.
 
 Based in Bogotá, Colombia.
 
@@ -28,7 +28,7 @@ Based in Bogotá, Colombia.
 
 | Project | Focus | Access |
 |---|---|---|
-| **CENIZA — AI-Powered Full-Stack CRM** | Full-stack CRM, operational data, RAG-based AI copilot, automation and public read-only demo | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Public website](https://cenizaproducciones.com/) |
+| **CENIZA — AI-Powered Full-Stack CRM** | Full-stack CRM, operational data, RAG-based AI agent, automation and public read-only demo | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Public website](https://cenizaproducciones.com/) |
 | **NAVAL — AI Business Ecosystem** | B2B web platform, product assistant, commercial automation and private ERP under active development | [Live website](https://www.productosnaval.com/) · [Case study](https://www.diegofrancoe.com/proyectos/naval) |
 | **40+ — E-commerce & Automation** | Commerce experience, WhatsApp-assisted sales, secure forms and automated customer communication | [Live website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
 
@@ -45,7 +45,7 @@ flowchart LR
     AUTH --> RLS[Membership + RLS]
     RLS --> DB[(PostgreSQL)]
     RLS --> ST[Private Storage]
-    UI --> AI[AI Copilot]
+    UI --> AI[AI agent]
     AI --> RAG[Hybrid RAG]
     RAG --> KB[Semantic guides]
     RAG --> LIVE[Live operational data]
@@ -124,5 +124,5 @@ Security, testing & human oversight
 </p>
 
 <p align="center">
-  <strong>Full-stack products · AI copilots · RAG · workflow automation · product UX/UI</strong>
+  <strong>Full-stack products · AI agents · RAG · workflow automation · product UX/UI</strong>
 </p>
