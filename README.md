@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <strong>Ideas into systems.</strong>
+</p>
+
+<p align="center">
   <a href="https://www.diegofrancoe.com/"><strong>Portfolio</strong></a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/diego-franco-338433364/"><strong>LinkedIn</strong></a>
@@ -14,62 +18,111 @@
 
 ## AI Solutions Engineer
 
-I design and build **intelligent software ecosystems** that connect business operations, data, automation and applied AI. My work brings commercial activity, production, logistics, finance and reporting into coherent CRM, ERP and operational platforms.
+I design and build full-stack products where **software, business workflows, automation, data and applied AI** work as one system.
 
-The goal is not to add an isolated chatbot to existing software. It is to create systems that people can operate through a clear UX/UI and, when useful, through an AI copilot capable of understanding context, preparing actions and working under human approval.
+My focus is not adding AI as decoration. I build the product around real operational context: clear UX/UI, structured data, secure integrations, AI copilots and human-approved actions.
 
 Based in Bogotá, Colombia.
 
-## What I build
+## Featured systems
 
-| Business software | Automation & integration | Applied AI |
+| Project | Focus | Access |
 |---|---|---|
-| Custom CRM, ERP and operational platforms | Connected workflows across web, APIs and business tools | Context-aware copilots inside business systems |
-| Interfaces for direct, traceable control | Lead, document, notification and data pipelines | Agents and multi-agent workflows for specialized work |
-| Reporting and decision-support experiences | Shared information across commercial and operational areas | Human approval, guardrails and auditable actions |
+| **CENIZA — AI-Powered Full-Stack CRM** | Full-stack CRM, operational data, RAG-based AI copilot, automation and public read-only demo | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Public website](https://cenizaproducciones.com/) |
+| **NAVAL — AI Business Ecosystem** | B2B web platform, product assistant, commercial automation and private ERP under active development | [Live website](https://www.productosnaval.com/) · [Case study](https://www.diegofrancoe.com/proyectos/naval) |
+| **40+ — E-commerce & Automation** | Commerce experience, WhatsApp-assisted sales, secure forms and automated customer communication | [Live website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
 
-## Selected systems
+> **Privacy by design:** production business data, credentials and sensitive operational systems remain private. Public demos and portfolio evidence are separated from real production information.
 
-| System | Product focus | Access |
-|---|---|---|
-| **Ceniza digital ecosystem** | Public website, connected intake, private CRM and an operational AI copilot | [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Website code](https://github.com/diegofrancoe/ceniza-digital-platform) · [Live website](https://cenizaproducciones.com/) |
-| **Naval digital ecosystem** | B2B product discovery, assisted purchasing and a private ERP under active development | [Case study](https://www.diegofrancoe.com/proyectos/naval) · [Website code](https://github.com/diegofrancoe/naval-web-platform) · [Live website](https://www.productosnaval.com/) |
-| **Cuarentamas commerce experience** | Product storytelling, automated form delivery and connected customer follow-up | [Case study](https://www.diegofrancoe.com/proyectos/40-plus) · [Source](https://github.com/diegofrancoe/cuarentamas-commerce) · [Live website](https://cuarentamas.com/) |
-| **Diego Franco portfolio** | Bilingual case studies that explain product decisions, system architecture and outcomes | [Source](https://github.com/diegofrancoe/diego-franco-portfolio) · [Live portfolio](https://www.diegofrancoe.com/) |
+## Architecture snapshots
 
-> **Privacy by design:** production CRM and ERP repositories remain private. Public demos use synthetic data and are separated from real business information.
+### CENIZA — AI-Powered Full-Stack CRM
 
-## Engineering approach
+~~~mermaid
+flowchart LR
+    U[User] --> UI[React + TypeScript CRM]
+    UI --> AUTH[Supabase Auth]
+    AUTH --> RLS[Membership + RLS]
+    RLS --> DB[(PostgreSQL)]
+    RLS --> ST[Private Storage]
+    UI --> AI[AI Copilot]
+    AI --> RAG[Hybrid RAG]
+    RAG --> KB[Semantic guides]
+    RAG --> LIVE[Live operational data]
+    LIVE --> DB
+    AI --> APPROVAL[Human approval]
+    APPROVAL --> EDGE[Edge Function]
+    EDGE --> ACTIONS[Controlled actions / email]
+~~~
 
-```text
+The public Ceniza website uses a separate secure intake boundary before data reaches automation or the CRM. The CRM demo is designed to show the product without exposing real business data.
+
+### NAVAL — AI Business Ecosystem
+
+~~~mermaid
+flowchart LR
+    C[Customer] --> WEB[React + Vite web platform]
+    WEB --> CAT[Product catalog]
+    WEB --> CHAT[Commercial assistant]
+    CHAT --> LOCAL[Local product knowledge]
+    CHAT --> API[Serverless API]
+    API --> MAKE[Make workflows]
+    API --> OAI[OpenAI fallback]
+    WEB --> DOCS[Technical documents]
+    ERP[Private ERP — in development] -. operational evolution .-> WEB
+~~~
+
+The public website supports product discovery and commercial flows. The ERP remains private while production, inventory, purchasing, finance and AI capabilities are still being completed.
+
+### 40+ — E-commerce & Automation
+
+~~~mermaid
+flowchart LR
+    V[Visitor] --> WEB[React commerce experience]
+    WEB --> WA[WhatsApp-assisted order]
+    WEB --> FORM[Experience form]
+    FORM --> API[Server validation]
+    API --> TS[Cloudflare Turnstile]
+    TS --> MAKE[Make]
+    MAKE --> MAIL[Microsoft 365 email]
+    MAKE --> SHEETS[Google Sheets / Drive]
+~~~
+
+The website deliberately separates public UX from private automation credentials and operational services.
+
+## How I build
+
+~~~text
 Business problem
       ↓
-Product and system architecture
+Product & system architecture
       ↓
-UX/UI and implementation
+UX/UI
       ↓
-Integrations and automation
+Full-stack implementation
       ↓
-Applied AI with human oversight
+Integrations & automation
       ↓
-Testing, security and observable results
-```
-
-I use AI throughout research, design, development, testing and documentation. It accelerates the engineering process; architecture, product decisions, security, validation and delivered outcomes remain my responsibility.
+Applied AI / RAG / tool-enabled workflows
+      ↓
+Security, testing & human oversight
+~~~
 
 ## Core stack
 
 <p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-252824?style=flat-square&logo=typescript&logoColor=74CDA7" />
   <img alt="React" src="https://img.shields.io/badge/React-252824?style=flat-square&logo=react&logoColor=74CDA7" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-252824?style=flat-square&logo=typescript&logoColor=74CDA7" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-252824?style=flat-square&logo=nextdotjs&logoColor=74CDA7" />
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-252824?style=flat-square&logo=supabase&logoColor=74CDA7" />
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-252824?style=flat-square&logo=postgresql&logoColor=74CDA7" />
   <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-252824?style=flat-square&logo=openai&logoColor=74CDA7" />
+  <img alt="n8n" src="https://img.shields.io/badge/n8n-252824?style=flat-square&logo=n8n&logoColor=74CDA7" />
   <img alt="Make" src="https://img.shields.io/badge/Make-252824?style=flat-square&logo=make&logoColor=74CDA7" />
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-252824?style=flat-square&logo=vite&logoColor=74CDA7" />
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-252824?style=flat-square&logo=vercel&logoColor=74CDA7" />
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-252824?style=flat-square&logo=figma&logoColor=74CDA7" />
 </p>
 
 <p align="center">
-  <strong>Building software where operations, data and AI work as one system.</strong>
+  <strong>Full-stack products · AI copilots · RAG · workflow automation · product UX/UI</strong>
 </p>
