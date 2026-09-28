@@ -65,7 +65,7 @@ flowchart LR
     ACTIONS --> AUDIT[Audit trail]
 ~~~
 
-CENIZA combines operational CRM data with a context-aware AI layer. The agent retrieves both semantic knowledge and live business data to generate recommendations, while sensitive actions remain behind human approval and controlled server-side execution. The public website uses a separate secure intake boundary before information reaches the CRM, keeping public-facing flows separated from private operational data.
+CENIZA combines operational CRM data with a context-aware AI layer. The agent retrieves both semantic knowledge and live business data to understand context, generate recommendations and operate across the CRM. It can create and update records, manage follow-ups and execute supported workflows, while sensitive actions remain behind human approval and controlled server-side execution. The public website uses a separate secure intake boundary before information reaches the CRM, keeping public-facing flows separated from private operational data.
 
 ### NAVAL — AI Business Ecosystem
 
