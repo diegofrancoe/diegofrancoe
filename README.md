@@ -127,17 +127,34 @@ NAVAL is currently under development.
 
 ~~~mermaid
 flowchart LR
-    V[Visitor] --> WEB[React commerce experience]
-    WEB --> WA[WhatsApp-assisted order]
-    WEB --> FORM[Experience form]
-    FORM --> API[Server validation]
-    API --> TS[Cloudflare Turnstile]
-    TS --> MAKE[Make]
-    MAKE --> MAIL[Microsoft 365 email]
-    MAKE --> SHEETS[Google Sheets / Drive]
+    VISITOR[Visitor] --> WEB[React e-commerce website]
+    WEB --> PRODUCT[Product experience]
+    WEB --> CHECKOUT[Online purchase flow]
+    WEB --> FORM[Ritual 40+ form]
+
+    CHECKOUT --> PAYMENTS[Payment integration layer]
+    PAYMENTS --> ORDER[Order / customer data]
+
+    FORM --> VALIDATION[Server validation]
+    VALIDATION --> TURNSTILE[Cloudflare Turnstile]
+    TURNSTILE --> MAKE[Make automation]
+
+    MAKE --> CUSTOMER[Customer email]
+    CUSTOMER --> EBOOK[Ritual 40+ e-book]
+
+    MAKE --> INTERNAL[Internal notification email]
+    INTERNAL --> DATA[Customer data / lead details]
+
+    ORDER --> CRM[CRM-ready customer data]
+    DATA --> CRM
+
+    CRM -. future integration .-> CUSTOMCRM[Custom CRM]
+    PAYMENTS -. extensible .-> GATEWAY[Payment providers]
 ~~~
 
-The website deliberately separates public UX from private automation credentials and operational services.
+40+ combines a public e-commerce experience with automated customer communication and lead capture. Customers can purchase through the website, while the Ritual 40+ flow validates submissions and automatically sends the e-book to the customer and an internal email with the customer's information.
+
+The architecture is designed to remain extensible for payment-provider integrations, a custom CRM and additional commerce or customer-automation workflows.
 
 <img src="./assets/section-process.svg" width="100%" alt="How I build" />
 
