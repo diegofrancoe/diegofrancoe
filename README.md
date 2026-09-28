@@ -14,7 +14,7 @@ My focus is not adding AI as decoration. I build the product around real operati
 
 Based in Bogotá, Colombia.
 
-## Featured systems
+<img src="./assets/section-featured.svg" width="100%" alt="Featured systems" />
 
 | Project | Focus | Access |
 |---|---|---|
@@ -24,7 +24,7 @@ Based in Bogotá, Colombia.
 
 > **Privacy by design:** production business data, credentials and sensitive operational systems remain private. Public demos and portfolio evidence are separated from real production information.
 
-## Architecture snapshots
+<img src="./assets/section-architecture.svg" width="100%" alt="Architecture" />
 
 ### CENIZA — AI-Powered Full-Stack CRM
 
@@ -80,7 +80,7 @@ flowchart LR
 
 The website deliberately separates public UX from private automation credentials and operational services.
 
-## How I build
+<img src="./assets/section-process.svg" width="100%" alt="How I build" />
 
 ~~~text
 Business problem
@@ -98,7 +98,7 @@ Applied AI / RAG / tool-enabled workflows
 Security, testing & human oversight
 ~~~
 
-## Core stack
+<img src="./assets/section-stack.svg" width="100%" alt="Core stack" />
 
 <p>
   <img alt="React" src="https://img.shields.io/badge/React-252824?style=flat-square&logo=react&logoColor=74CDA7" />
