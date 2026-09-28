@@ -10,9 +10,11 @@
 
 I design and build full-stack products where **software, business workflows, automation, data and applied AI** work as one system.
 
-My focus is to build the digital product around real operational context: clear UX/UI, structured data, secure integrations, AI agents and human-approved actions.
+I focus on building digital products around real operational context: clear UX/UI, structured data, secure integrations, AI agents and human-approved actions.
 
 <img src="./assets/section-featured.svg" width="100%" alt="Featured systems" />
+
+These projects show how I turn business needs into working digital systems — combining product design, full-stack development, automation and applied AI. Each one addresses a different operational challenge, from CRM and ERP workflows to e-commerce and customer communication.
 
 | Project | Focus | Access |
 |---|---|---|
