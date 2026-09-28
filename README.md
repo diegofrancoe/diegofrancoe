@@ -71,18 +71,23 @@ CENIZA combines operational CRM data with a context-aware AI layer. The agent re
 
 ~~~mermaid
 flowchart LR
-    CUSTOMER[Customer] --> WEB[Public B2B website]
+    CUSTOMER[Customer] --> WEB[React + Vite B2B website]
     WEB --> CATALOG[Product catalog]
     WEB --> CHAT[Customer chatbot]
-    CHAT --> KNOWLEDGE[Product knowledge]
+    CHAT --> KNOWLEDGE[Product knowledge / RAG]
     CHAT --> API[Serverless API]
-    API --> AUTOMATION[Commercial automation]
+    API --> OPENAI[OpenAI]
+    API --> MAKE[Make automation]
     API --> ERP[Private ERP]
 
     USER[Internal user] --> ERP
-    ERP --> INTERNAL[Internal AI agent]
-    ERP --> DB[(Shared operational database)]
+    ERP --> UI[React + TypeScript ERP]
+    UI --> AUTH[Supabase Auth]
+    AUTH --> RLS[Membership + RLS]
+    RLS --> DB[(Supabase PostgreSQL)]
 
+    UI --> INTERNAL[Internal AI agent]
+    INTERNAL --> OPENAI
     INTERNAL --> COMM[Commercial agent]
     INTERNAL --> PROD[Production agent]
     INTERNAL --> BUY[Purchasing agent]
@@ -99,19 +104,22 @@ flowchart LR
     FIN <--> INTERNAL
 
     INTERNAL --> CONTEXT[Cross-functional context]
-    CONTEXT --> REC[Recommendations + operations]
-    REC --> APPROVAL[Human approval]
-    APPROVAL --> ACTIONS[Controlled ERP actions]
+    CONTEXT --> OPS[Recommendations + ERP operations]
+    OPS --> APPROVAL[Human approval]
+    APPROVAL --> EDGE[Supabase Edge Functions]
+    EDGE --> ACTIONS[Controlled actions]
 
     ACTIONS --> RECORDS[Create / update records]
-    ACTIONS --> WORKFLOWS[Execute workflows]
-    ACTIONS --> FOLLOW[Follow-ups / alerts]
+    ACTIONS --> WORKFLOWS[Operational workflows]
+    ACTIONS --> ALERTS[Follow-ups / alerts]
     ACTIONS --> AUDIT[Audit trail]
+
+    MAKE --> EMAIL[Email / notifications]
 ~~~
 
-NAVAL is designed as a connected business ecosystem where the public B2B website, customer chatbot, commercial automation and private ERP share operational context. The ERP is being structured around specialized AI agents for Commercial, Production, Purchasing and Finance, all working with a shared operational database and communicating through a central internal agent.
+NAVAL is designed as a connected business ecosystem where the React + Vite public B2B website, customer chatbot, serverless APIs, automation layer and private ERP share operational context. The ERP uses React + TypeScript for the application layer and Supabase for authentication, Row Level Security and PostgreSQL operational data.
 
-The internal agent acts as the main AI interface across the ERP. It can coordinate information between departments, understand cross-functional context, generate recommendations and operate across supported ERP workflows. Like the CENIZA agent, it is designed to create and update records, trigger workflows, manage follow-ups and perform controlled actions, while sensitive operations remain behind human approval and auditable server-side execution.
+The ERP is being structured around specialized AI agents for Commercial, Production, Purchasing and Finance. These agents work with the same operational database and communicate through a central internal AI agent powered by OpenAI. The internal agent acts as the main AI interface across the ERP: it can coordinate cross-functional information, generate recommendations and operate across supported workflows. Sensitive operations pass through human approval and controlled Supabase Edge Functions before records, workflows or notifications are changed, with auditability built into the execution flow.
 
 ### 40+ — E-commerce & Automation
 
