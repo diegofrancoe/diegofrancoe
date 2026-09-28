@@ -5,15 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>Ideas into systems.</strong>
-</p>
-
-<p align="center">
-  <a href="https://www.diegofrancoe.com/"><strong>Portfolio</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/diego-franco-338433364/"><strong>LinkedIn</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:diegofrancoecheverri@gmail.com"><strong>Contact</strong></a>
+  <a href="https://www.diegofrancoe.com/"><strong>PORTFOLIO</strong></a>
+  &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/diego-franco-338433364/"><strong>LINKEDIN</strong></a>
+  &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="mailto:diegofrancoecheverri@gmail.com"><strong>CONTACT</strong></a>
 </p>
 
 ## AI Solutions Engineer
