@@ -78,32 +78,34 @@ flowchart LR
     CHAT --> API[Serverless API]
     API --> OPENAI[OpenAI]
     API --> MAKE[Make automation]
+    MAKE --> EMAIL[Email / notifications]
     API --> ERP[Private ERP]
 
     USER[Internal user] --> ERP
     ERP --> UI[React + TypeScript ERP]
     UI --> AUTH[Supabase Auth]
     AUTH --> RLS[Membership + RLS]
-    RLS --> DB[(Supabase PostgreSQL)]
+    RLS --> DB[(Shared Operational DB / PostgreSQL)]
 
-    UI --> INTERNAL[Internal AI agent]
-    INTERNAL --> OPENAI
-    INTERNAL --> COMM[Commercial agent]
-    INTERNAL --> PROD[Production agent]
-    INTERNAL --> BUY[Purchasing agent]
-    INTERNAL --> FIN[Finance agent]
+    UI --> ORCH[AI Orchestrator / Internal Agent]
+    ORCH --> OPENAI
+    ORCH --> COMM[Commercial agent]
+    ORCH --> PROD[Production agent]
+    ORCH --> BUY[Purchasing agent]
+    ORCH --> FIN[Finance agent]
 
     COMM <--> DB
     PROD <--> DB
     BUY <--> DB
     FIN <--> DB
 
-    COMM <--> INTERNAL
-    PROD <--> INTERNAL
-    BUY <--> INTERNAL
-    FIN <--> INTERNAL
+    COMM <--> ORCH
+    PROD <--> ORCH
+    BUY <--> ORCH
+    FIN <--> ORCH
 
-    INTERNAL --> CONTEXT[Cross-functional context]
+    ORCH --> TOOLS[Tool calling / ERP services]
+    TOOLS --> CONTEXT[Cross-functional context]
     CONTEXT --> OPS[Recommendations + ERP operations]
     OPS --> APPROVAL[Human approval]
     APPROVAL --> EDGE[Supabase Edge Functions]
@@ -113,13 +115,15 @@ flowchart LR
     ACTIONS --> WORKFLOWS[Operational workflows]
     ACTIONS --> ALERTS[Follow-ups / alerts]
     ACTIONS --> AUDIT[Audit trail]
-
-    MAKE --> EMAIL[Email / notifications]
+    RECORDS --> DB
+    WORKFLOWS --> DB
 ~~~
 
-NAVAL is designed as a connected business ecosystem where the React + Vite public B2B website, customer chatbot, serverless APIs, automation layer and private ERP share operational context. The ERP uses React + TypeScript for the application layer and Supabase for authentication, Row Level Security and PostgreSQL operational data.
+NAVAL connects its public B2B website, customer chatbot, automation layer and private ERP as one business ecosystem. Customer interactions can flow from the public platform into commercial and operational processes, while the ERP centralizes shared business data across departments.
 
-The ERP is being structured around specialized AI agents for Commercial, Production, Purchasing and Finance. These agents work with the same operational database and communicate through a central internal AI agent powered by OpenAI. The internal agent acts as the main AI interface across the ERP: it can coordinate cross-functional information, generate recommendations and operate across supported workflows. Sensitive operations pass through human approval and controlled Supabase Edge Functions before records, workflows or notifications are changed, with auditability built into the execution flow.
+The AI architecture is designed around specialized agents for Commercial, Production, Purchasing and Finance, coordinated by a central internal agent with access to cross-functional context. The internal agent can answer questions, coordinate specialized agents and operate across supported ERP workflows through controlled tools and services, while sensitive actions remain behind human approval, controlled execution and auditability.
+
+**Status:** NAVAL is still under active development. The architecture represents the system being implemented as ERP modules, integrations and AI capabilities are completed.
 
 ### 40+ — E-commerce & Automation
 
