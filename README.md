@@ -151,9 +151,7 @@ flowchart LR
     WEB -. optional integration .-> PAYMENTS[Payment providers]
 ~~~
 
-40+ combines a public e-commerce experience with WhatsApp-assisted purchasing, automated customer communication and lead capture. The Ritual 40+ flow validates submissions and automatically sends the e-book to the customer and an internal email with the customer's information.
-
-The current purchase flow connects customers directly to WhatsApp. The architecture can also support optional integrations such as payment providers, a custom CRM and additional commerce or customer-automation workflows.
+40+ combines a public e-commerce experience with WhatsApp-assisted purchasing, secure lead capture and automated customer communication. The Ritual 40+ flow validates customer submissions and automatically delivers the e-book while sending the customer information internally for follow-up. The current purchase journey connects directly to WhatsApp, while the architecture can support additional integrations such as payment providers, a custom CRM and expanded commerce or customer-automation workflows.
 
 <img src="./assets/section-process.svg" width="100%" alt="How I build" />
 
