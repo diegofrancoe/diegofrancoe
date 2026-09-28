@@ -156,19 +156,23 @@ flowchart LR
 <img src="./assets/section-process.svg" width="100%" alt="How I build" />
 
 ~~~text
-Business problem
-      ↓
-Product & system architecture
-      ↓
-UX/UI
-      ↓
-Full-stack implementation
-      ↓
-Integrations & automation
-      ↓
-Applied AI / RAG / tool-enabled workflows
-      ↓
-Security, testing & human oversight
+01  Discover
+    Processes · Problems · Scope
+          ↓
+02  Design
+    UX/UI · Journeys · Components
+          ↓
+03  Architect
+    Modules · Data · Roles & Permissions
+          ↓
+04  Build
+    Frontend · Backend · Business Logic
+          ↓
+05  Connect
+    APIs · Automation · Applied AI
+          ↓
+06  Deploy & Improve
+    Testing · Deployment · Continuous Improvement
 ~~~
 
 <img src="./assets/section-stack.svg" width="100%" alt="Core stack" />
