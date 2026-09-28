@@ -22,7 +22,7 @@ These projects show how I turn business needs into working digital systems. Each
 | **NAVAL — AI Business Ecosystem / ERP** | Private ERP with production, inventory, purchasing, finance and AI capabilities under active development | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
 | **40+ — E-commerce & Automation** | Commerce experience, WhatsApp-assisted sales, secure forms and automated customer communication | [Website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
 
-<img src="./assets/section-web-design.svg" width="100%" alt="Web Design" />
+<img src="./assets/section-product-design.svg" width="100%" alt="Product Design" />
 
 | Project | Focus | Access |
 |---|---|---|
