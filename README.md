@@ -18,18 +18,18 @@ Based in Bogotá, Colombia.
 
 | Project | Focus | Access |
 |---|---|---|
-| **CENIZA — AI-Powered Full-Stack CRM** | Full-stack CRM, operational data, RAG-based AI agent, automation and public read-only demo | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) · [Public website](https://cenizaproducciones.com/) |
-| **NAVAL — AI Business Ecosystem** | B2B web platform, product assistant, commercial automation and private ERP under active development | [Live website](https://www.productosnaval.com/) · [Case study](https://www.diegofrancoe.com/proyectos/naval) |
-| **40+ — E-commerce & Automation** | Commerce experience, WhatsApp-assisted sales, secure forms and automated customer communication | [Live website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
+| **CENIZA — AI-Powered Full-Stack CRM** | Full-stack CRM, operational data, RAG-based AI agent and automation | [CRM demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) |
+| **NAVAL — AI Business Ecosystem / ERP** | Private ERP with production, inventory, purchasing, finance and AI capabilities under active development | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
+| **40+ — E-commerce & Automation** | Commerce experience, WhatsApp-assisted sales, secure forms and automated customer communication | [Website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
 
 <img src="./assets/section-web-design.svg" width="100%" alt="Web Design" />
 
 | Project | Focus | Access |
 |---|---|---|
-| **CENIZA — Digital Experience** | Responsive production website focused on visual direction, interaction and brand presentation | [Live website](https://cenizaproducciones.com/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) |
-| **NAVAL — B2B Website** | Responsive B2B product experience, catalog navigation and commercial assistant | [Live website](https://www.productosnaval.com/) · [Case study](https://www.diegofrancoe.com/proyectos/naval) |
-| **Nano — Portfolio** | Personal portfolio experience with responsive visual composition and custom UI | Private project |
-| **Diego Franco — Portfolio** | Personal portfolio for AI Solutions Engineering, product work and interactive case studies | [Live website](https://www.diegofrancoe.com/) |
+| **CENIZA — Digital Experience** | Responsive production website focused on visual direction, interaction and brand presentation | [Website](https://cenizaproducciones.com/) |
+| **NAVAL — B2B Website** | Responsive B2B product experience, catalog navigation and commercial assistant | [Website](https://www.productosnaval.com/) |
+| **Nano — Portfolio** | Personal portfolio experience with responsive visual composition and custom UI | [Website](https://bernardofrancoe.com/) |
+| **Diego Franco — Portfolio** | Personal portfolio for AI Solutions Engineering, product work and interactive case studies | [Website](https://www.diegofrancoe.com/) |
 
 > **Privacy by design:** production business data, credentials and sensitive operational systems remain private. Public demos and portfolio evidence are separated from real production information.
 
