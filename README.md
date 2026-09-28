@@ -14,7 +14,7 @@ I focus on building digital products around real operational context: clear UX/U
 
 <img src="./assets/section-featured.svg" width="100%" alt="Featured systems" />
 
-These projects show how I turn business needs into working digital systems — combining product design, full-stack development, automation and applied AI. Each one addresses a different operational challenge, from CRM and ERP workflows to e-commerce and customer communication.
+These projects show how I turn business needs into working digital systems. Each one addresses a different operational challenge, from CRM and ERP workflows to e-commerce and customer communication.
 
 | Project | Focus | Access |
 |---|---|---|
