@@ -10,9 +10,7 @@
 
 I design and build full-stack products where **software, business workflows, automation, data and applied AI** work as one system.
 
-My focus is not adding AI as decoration. I build the product around real operational context: clear UX/UI, structured data, secure integrations, AI agents and human-approved actions.
-
-Based in Bogotá, Colombia.
+My focus is to build the digital product around real operational context: clear UX/UI, structured data, secure integrations, AI agents and human-approved actions.
 
 <img src="./assets/section-featured.svg" width="100%" alt="Featured systems" />
 
