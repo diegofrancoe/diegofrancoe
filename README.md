@@ -4,11 +4,7 @@
   </a>
 </p>
 
-<table align="center"><tr>
-<td><a href="https://www.diegofrancoe.com/"><img src="./assets/nav-portfolio.svg" alt="PORTFOLIO" /></a></td>
-<td><a href="https://www.linkedin.com/in/diego-franco-338433364/"><img src="./assets/nav-linkedin.svg" alt="LINKEDIN" /></a></td>
-<td><a href="mailto:diegofrancoecheverri@gmail.com"><img src="./assets/nav-contact.svg" alt="CONTACT" /></a></td>
-</tr></table>
+
 
 ## AI Solutions Engineer
 
