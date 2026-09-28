@@ -156,22 +156,22 @@ flowchart LR
 <img src="./assets/section-process.svg" width="100%" alt="How I build" />
 
 ~~~text
-01  Discover
+Discover
     Processes · Problems · Scope
           ↓
-02  Design
+Design
     UX/UI · Journeys · Components
           ↓
-03  Architect
+Architect
     Modules · Data · Roles & Permissions
           ↓
-04  Build
+Build
     Frontend · Backend · Business Logic
           ↓
-05  Connect
+Connect
     APIs · Automation · Applied AI
           ↓
-06  Deploy & Improve
+Deploy & Improve
     Testing · Deployment · Continuous Improvement
 ~~~
 
