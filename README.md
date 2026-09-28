@@ -119,11 +119,9 @@ flowchart LR
     WORKFLOWS --> DB
 ~~~
 
-NAVAL connects its public B2B website, customer chatbot, automation layer and private ERP as one business ecosystem. Customer interactions can flow from the public platform into commercial and operational processes, while the ERP centralizes shared business data across departments.
+NAVAL connects its public B2B website, customer chatbot, automation layer and private ERP as one business ecosystem. The ERP centralizes shared operational data and is designed around specialized AI agents for Commercial, Production, Purchasing and Finance, coordinated by a central internal agent that can operate across supported workflows with human approval for sensitive actions.
 
-The AI architecture is designed around specialized agents for Commercial, Production, Purchasing and Finance, coordinated by a central internal agent with access to cross-functional context. The internal agent can answer questions, coordinate specialized agents and operate across supported ERP workflows through controlled tools and services, while sensitive actions remain behind human approval, controlled execution and auditability.
-
-**Status:** NAVAL is still under active development. The architecture represents the system being implemented as ERP modules, integrations and AI capabilities are completed.
+NAVAL is currently under development.
 
 ### 40+ — E-commerce & Automation
 
