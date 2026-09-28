@@ -71,18 +71,47 @@ CENIZA combines operational CRM data with a context-aware AI layer. The agent re
 
 ~~~mermaid
 flowchart LR
-    C[Customer] --> WEB[React + Vite web platform]
-    WEB --> CAT[Product catalog]
-    WEB --> CHAT[Commercial assistant]
-    CHAT --> LOCAL[Local product knowledge]
+    CUSTOMER[Customer] --> WEB[Public B2B website]
+    WEB --> CATALOG[Product catalog]
+    WEB --> CHAT[Customer chatbot]
+    CHAT --> KNOWLEDGE[Product knowledge]
     CHAT --> API[Serverless API]
-    API --> MAKE[Make workflows]
-    API --> OAI[OpenAI fallback]
-    WEB --> DOCS[Technical documents]
-    ERP[Private ERP — in development] -. operational evolution .-> WEB
+    API --> AUTOMATION[Commercial automation]
+    API --> ERP[Private ERP]
+
+    USER[Internal user] --> ERP
+    ERP --> INTERNAL[Internal AI agent]
+    ERP --> DB[(Shared operational database)]
+
+    INTERNAL --> COMM[Commercial agent]
+    INTERNAL --> PROD[Production agent]
+    INTERNAL --> BUY[Purchasing agent]
+    INTERNAL --> FIN[Finance agent]
+
+    COMM <--> DB
+    PROD <--> DB
+    BUY <--> DB
+    FIN <--> DB
+
+    COMM <--> INTERNAL
+    PROD <--> INTERNAL
+    BUY <--> INTERNAL
+    FIN <--> INTERNAL
+
+    INTERNAL --> CONTEXT[Cross-functional context]
+    CONTEXT --> REC[Recommendations + operations]
+    REC --> APPROVAL[Human approval]
+    APPROVAL --> ACTIONS[Controlled ERP actions]
+
+    ACTIONS --> RECORDS[Create / update records]
+    ACTIONS --> WORKFLOWS[Execute workflows]
+    ACTIONS --> FOLLOW[Follow-ups / alerts]
+    ACTIONS --> AUDIT[Audit trail]
 ~~~
 
-The public website supports product discovery and commercial flows. The ERP remains private while production, inventory, purchasing, finance and AI capabilities are still being completed.
+NAVAL is designed as a connected business ecosystem where the public B2B website, customer chatbot, commercial automation and private ERP share operational context. The ERP is being structured around specialized AI agents for Commercial, Production, Purchasing and Finance, all working with a shared operational database and communicating through a central internal agent.
+
+The internal agent acts as the main AI interface across the ERP. It can coordinate information between departments, understand cross-functional context, generate recommendations and operate across supported ERP workflows. Like the CENIZA agent, it is designed to create and update records, trigger workflows, manage follow-ups and perform controlled actions, while sensitive operations remain behind human approval and auditable server-side execution.
 
 ### 40+ — E-commerce & Automation
 
