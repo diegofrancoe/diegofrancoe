@@ -39,22 +39,33 @@ These projects show how I turn business needs into working digital systems. Each
 
 ~~~mermaid
 flowchart LR
-    U[User] --> UI[React + TypeScript CRM]
-    UI --> AUTH[Supabase Auth]
-    AUTH --> RLS[Membership + RLS]
-    RLS --> DB[(PostgreSQL)]
-    RLS --> ST[Private Storage]
-    UI --> AI[AI agent]
-    AI --> RAG[Hybrid RAG]
-    RAG --> KB[Semantic guides]
-    RAG --> LIVE[Live operational data]
-    LIVE --> DB
-    AI --> APPROVAL[Human approval]
+    SITE[Public website] --> INTAKE[Secure lead intake]
+    INTAKE --> CRM[React + TypeScript CRM]
+
+    USER[User] --> CRM
+    CRM --> AUTH[Supabase Auth]
+    AUTH --> ACCESS[Membership + RLS]
+    ACCESS --> DB[(PostgreSQL)]
+    ACCESS --> STORAGE[Private Storage]
+
+    DB --> OPS[Live CRM data]
+    CRM --> AGENT[AI agent]
+    AGENT --> RAG[Hybrid RAG]
+    RAG --> GUIDES[Semantic guides]
+    RAG --> OPS
+
+    AGENT --> REC[AI recommendation]
+    REC --> APPROVAL[Human approval]
     APPROVAL --> EDGE[Edge Function]
-    EDGE --> ACTIONS[Controlled actions / email]
+    EDGE --> ACTIONS[Controlled actions]
+
+    ACTIONS --> EMAIL[Email]
+    ACTIONS --> FOLLOW[Follow-up]
+    ACTIONS --> UPDATE[CRM update]
+    ACTIONS --> AUDIT[Audit trail]
 ~~~
 
-The public Ceniza website uses a separate secure intake boundary before data reaches automation or the CRM. The CRM demo is designed to show the product without exposing real business data.
+CENIZA combines operational CRM data with a context-aware AI layer. The agent retrieves both semantic knowledge and live business data to generate recommendations, while sensitive actions remain behind human approval and controlled server-side execution. The public website uses a separate secure intake boundary before information reaches the CRM, keeping public-facing flows separated from private operational data.
 
 ### NAVAL — AI Business Ecosystem
 
