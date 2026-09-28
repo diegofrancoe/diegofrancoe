@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.diegofrancoe.com/">
-    <img src="https://raw.githubusercontent.com/diegofrancoe/diegofrancoe/main/assets/profile-header.svg" width="100%" alt="Diego Franco — AI Solutions Engineer" />
+    <img src="./assets/profile-header.svg" width="100%" alt="Diego Franco — AI Solutions Engineer" />
   </a>
 </p>
 
