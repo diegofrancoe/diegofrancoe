@@ -180,7 +180,7 @@ Deploy & Improve
 <p>
   <img alt="React" src="https://img.shields.io/badge/React-252824?style=flat-square&logo=react&logoColor=74CDA7" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-252824?style=flat-square&logo=typescript&logoColor=74CDA7" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-252824?style=flat-square&logo=openjdk&logoColor=74CDA7" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-252824?style=flat-square&logo=javascript&logoColor=74CDA7" />
   <img alt="CSS" src="https://img.shields.io/badge/CSS-252824?style=flat-square&logo=css&logoColor=74CDA7" />
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-252824?style=flat-square&logo=nextdotjs&logoColor=74CDA7" />
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-252824?style=flat-square&logo=supabase&logoColor=74CDA7" />
