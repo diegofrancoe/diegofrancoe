@@ -129,11 +129,10 @@ NAVAL is currently under development.
 flowchart LR
     VISITOR[Visitor] --> WEB[React e-commerce website]
     WEB --> PRODUCT[Product experience]
-    WEB --> CHECKOUT[Online purchase flow]
+    WEB --> WA[WhatsApp purchase flow]
     WEB --> FORM[Ritual 40+ form]
 
-    CHECKOUT --> PAYMENTS[Payment integration layer]
-    PAYMENTS --> ORDER[Order / customer data]
+    WA --> ORDER[Customer / order details]
 
     FORM --> VALIDATION[Server validation]
     VALIDATION --> TURNSTILE[Cloudflare Turnstile]
@@ -143,18 +142,18 @@ flowchart LR
     CUSTOMER --> EBOOK[Ritual 40+ e-book]
 
     MAKE --> INTERNAL[Internal notification email]
-    INTERNAL --> DATA[Customer data / lead details]
+    INTERNAL --> DATA[Customer / lead details]
 
-    ORDER --> CRM[CRM-ready customer data]
-    DATA --> CRM
+    ORDER --> COMMERCE[Commerce-ready data]
+    DATA --> COMMERCE
 
-    CRM -. future integration .-> CUSTOMCRM[Custom CRM]
-    PAYMENTS -. extensible .-> GATEWAY[Payment providers]
+    COMMERCE -. optional integration .-> CRM[Custom CRM]
+    WEB -. optional integration .-> PAYMENTS[Payment providers]
 ~~~
 
-40+ combines a public e-commerce experience with automated customer communication and lead capture. Customers can purchase through the website, while the Ritual 40+ flow validates submissions and automatically sends the e-book to the customer and an internal email with the customer's information.
+40+ combines a public e-commerce experience with WhatsApp-assisted purchasing, automated customer communication and lead capture. The Ritual 40+ flow validates submissions and automatically sends the e-book to the customer and an internal email with the customer's information.
 
-The architecture is designed to remain extensible for payment-provider integrations, a custom CRM and additional commerce or customer-automation workflows.
+The current purchase flow connects customers directly to WhatsApp. The architecture can also support optional integrations such as payment providers, a custom CRM and additional commerce or customer-automation workflows.
 
 <img src="./assets/section-process.svg" width="100%" alt="How I build" />
 
