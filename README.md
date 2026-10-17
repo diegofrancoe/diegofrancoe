@@ -1,39 +1,43 @@
 <p align="center">
   <a href="https://www.diegofrancoe.com/">
-    <img src="./assets/profile-header.svg" width="100%" alt="Diego Franco — AI Solutions Engineer" />
+    <img src="./assets/profile-header.svg" width="100%" alt="Diego Franco — AI Product Developer" />
   </a>
 </p>
 
 
 
-## AI Solutions Engineer
+## AI Product Developer
 
-I design and build full-stack products where **software, business workflows, automation, data and applied AI** work as one system.
+I design, build and bring digital products to life.
 
-I focus on building digital products around real operational context: clear UX/UI, structured data, secure integrations, AI agents and human-approved actions.
+My work combines **Product Design (UX/UI), Full-Stack Development and Applied AI** to create intuitive, functional and scalable digital experiences.
 
-These projects show how I turn business needs into working digital systems. Each one addresses a different operational challenge, from CRM and ERP workflows to e-commerce and customer communication.
+From the first idea to a working product, I work across the entire development process — understanding user needs, designing interfaces, building applications and integrating AI-powered features and automations.
 
-<img src="./assets/section-featured.svg" width="100%" alt="Featured systems" />
+I enjoy creating products that not only look great, but also solve real problems and make technology easier to use.
 
-| Project | Focus | Access |
-|---|---|---|
-| **CENIZA — AI-Powered Full-Stack CRM** | Full-stack CRM, operational data, RAG-based AI agent and automation | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) |
-| **NAVAL — AI Business Ecosystem / ERP** | Private ERP with production, inventory, purchasing, finance and AI capabilities under active development | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
-| **40+ — E-commerce & Automation** | Commerce experience, WhatsApp-assisted sales, secure forms and automated customer communication | [Website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
+**What I build:** Web Applications · Digital Products · AI-Powered Applications · CRM & ERP Platforms · E-commerce · UX/UI Experiences
 
-<img src="./assets/section-product-design.svg" width="100%" alt="Product Design" />
+<img src="./assets/section-featured.svg" width="100%" alt="Featured products" />
 
 | Project | Focus | Access |
 |---|---|---|
-| **CENIZA — Digital Experience** | Responsive production website focused on visual direction, interaction and brand presentation | [Website](https://cenizaproducciones.com/) |
-| **NAVAL — B2B Website** | Responsive B2B product experience, catalog navigation and commercial assistant | [Website](https://www.productosnaval.com/) |
-| **Nano — Portfolio** | Personal portfolio experience with responsive visual composition and custom UI | [Website](https://bernardofrancoe.com/) |
-| **Diego Franco — Portfolio** | Personal portfolio for AI Solutions Engineering, product work and interactive case studies | [Website](https://www.diegofrancoe.com/) |
+| **CENIZA — AI-Powered CRM** | End-to-end product design, UX\/UI, full-stack application and AI-powered workflows | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) |
+| **NAVAL — AI Business Platform** | Business application design, operational dashboards, modular UX\/UI and integrated AI agents; private ERP under development | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
+| **40+ — Digital Commerce** | E-commerce experience, responsive product design, WhatsApp-assisted sales and automated customer journeys | [Website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
+
+<img src="./assets/section-product-design.svg" width="100%" alt="Web design and digital experiences" />
+
+| Project | Focus | Access |
+|---|---|---|
+| **CENIZA — Website** | Creative web design, responsive interfaces and digital brand experience | [Website](https://cenizaproducciones.com/) |
+| **NAVAL — B2B Platform** | B2B website UX\/UI, product catalog and AI-assisted customer experience | [Website](https://www.productosnaval.com/) |
+| **Bernardo Franco — Portfolio** | Custom portfolio design, responsive layouts and interactive web experience | [Website](https://bernardofrancoe.com/) |
+| **Diego Franco — Portfolio** | Personal portfolio for AI product development, UX\/UI and interactive digital projects | [Website](https://www.diegofrancoe.com/) |
 
 > **Privacy by design:** production business data, credentials and sensitive operational systems remain private. Public demos and portfolio evidence are separated from real production information.
 
-<img src="./assets/section-architecture.svg" width="100%" alt="Architecture" />
+<img src="./assets/section-architecture.svg" width="100%" alt="Behind the product" />
 
 ### CENIZA — AI-Powered Full-Stack CRM
 
@@ -153,7 +157,7 @@ flowchart LR
 
 40+ combines a public e-commerce experience with WhatsApp-assisted purchasing, secure lead capture and automated customer communication. The Ritual 40+ flow validates customer submissions and automatically delivers the e-book while sending the customer information internally for follow-up. The current purchase journey connects directly to WhatsApp, while the architecture can support additional integrations such as payment providers, a custom CRM and expanded commerce or customer-automation workflows.
 
-<img src="./assets/section-process.svg" width="100%" alt="How I build" />
+<img src="./assets/section-process.svg" width="100%" alt="My product development process" />
 
 ~~~text
 Discover
@@ -175,7 +179,7 @@ Deploy & Improve
     Testing · Deployment · Continuous Improvement
 ~~~
 
-<img src="./assets/section-stack.svg" width="100%" alt="Core stack" />
+<img src="./assets/section-stack.svg" width="100%" alt="Design and development toolkit" />
 
 <p>
   <img alt="React" src="https://img.shields.io/badge/React-252824?style=flat-square&logo=react&logoColor=74CDA7" />
@@ -193,5 +197,5 @@ Deploy & Improve
 </p>
 
 <p align="center">
-  <strong>Full-stack products · AI agents · RAG · workflow automation · product UX/UI</strong>
+  <strong>AI Product Development · Product UX/UI · Full-Stack Applications · Applied AI</strong>
 </p>
