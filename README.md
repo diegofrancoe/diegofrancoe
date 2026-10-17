@@ -18,18 +18,18 @@ I enjoy creating products that not only look great, but also solve real problems
 
 **What I build:** Web Applications · Digital Products · AI-Powered Applications · CRM & ERP Platforms · E-commerce · UX/UI Experiences
 
-<img src="./assets/section-featured.svg" width="100%" alt="Featured products" />
+<img src="./assets/section-featured.svg" width="100%" alt="AI-powered products" />
 
 | Project | Focus | Access |
 |---|---|---|
 | **CENIZA — AI-Powered CRM** | End-to-end product design, UX\/UI, full-stack application and AI-powered workflows | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) |
 | **NAVAL — AI Business Platform** | Business application design, operational dashboards, modular UX\/UI and integrated AI agents; private ERP under development | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
-| **40+ — Digital Commerce** | E-commerce experience, responsive product design, WhatsApp-assisted sales and automated customer journeys | [Website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
 
-<img src="./assets/section-product-design.svg" width="100%" alt="Web design and digital experiences" />
+<img src="./assets/section-product-design.svg" width="100%" alt="Web and digital experiences" />
 
 | Project | Focus | Access |
 |---|---|---|
+| **40+ — Digital Commerce** | E-commerce experience, responsive product design, WhatsApp-assisted sales and automated customer journeys | [Website](https://cuarentamas.com/) · [Case study](https://www.diegofrancoe.com/proyectos/40-plus) |
 | **CENIZA — Website** | Creative web design, responsive interfaces and digital brand experience | [Website](https://cenizaproducciones.com/) |
 | **NAVAL — B2B Platform** | B2B website UX\/UI, product catalog and AI-assisted customer experience | [Website](https://www.productosnaval.com/) |
 | **Bernardo Franco — Portfolio** | Custom portfolio design, responsive layouts and interactive web experience | [Website](https://bernardofrancoe.com/) |
