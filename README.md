@@ -23,7 +23,7 @@ I enjoy creating products that not only look great, but also solve real problems
 | Project | Focus | Access |
 |---|---|---|
 | **CENIZA — AI-Powered CRM** | End-to-end product design, UX\/UI, full-stack application and AI-powered workflows | [Live demo](https://ceniza-crm.vercel.app/) · [Case study](https://www.diegofrancoe.com/proyectos/ceniza) |
-| **NAVAL — AI Business Platform** | Business application design, operational dashboards, modular UX\/UI and integrated AI agents; private ERP under development | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
+| **NAVAL — Business Operations Platform** | ERP product UX/UI and operational dashboards; the documented demo has no active AI agents yet | [Case study](https://www.diegofrancoe.com/proyectos/naval) |
 
 <img src="./assets/section-product-design.svg" width="100%" alt="Web and digital experiences" />
 
@@ -71,7 +71,7 @@ flowchart LR
 
 CENIZA combines operational CRM data with a context-aware AI layer. The agent retrieves both semantic knowledge and live business data to understand context, generate recommendations and operate across the CRM. It can create and update records, manage follow-ups and execute supported workflows, while sensitive actions remain behind human approval and controlled server-side execution. The public website uses a separate secure intake boundary before information reaches the CRM, keeping public-facing flows separated from private operational data.
 
-### NAVAL — AI Business Ecosystem
+### NAVAL — Business Platform and Planned AI Ecosystem
 
 ~~~mermaid
 flowchart LR
@@ -123,9 +123,9 @@ flowchart LR
     WORKFLOWS --> DB
 ~~~
 
-NAVAL connects its public B2B website, customer chatbot, automation layer and private ERP as one business ecosystem. The ERP centralizes shared operational data and is designed around specialized AI agents for Commercial, Production, Purchasing and Finance, coordinated by a central internal agent that can operate across supported workflows with human approval for sensitive actions.
+NAVAL connects its public B2B website, customer chatbot, automation layer and private ERP as one business ecosystem. The ERP demo currently illustrates operational workflows with frontend datasets and local persistence. Specialized AI agents for Commercial, Production, Purchasing and Finance are part of the planned direction, not implemented in the documented ERP demo.
 
-NAVAL is currently under development.
+NAVAL is currently under development. Its public website has a customer-facing AI assistant; that capability should not be confused with the separate ERP demo, whose current README explicitly states that AI model integration is not implemented.
 
 ### 40+ — E-commerce & Automation
 
